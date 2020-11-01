@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HR.Model
+﻿namespace HR.Model
 {
-    class Entity:Entity
+    class Entity: IEntity
     {
         public int Id { get; set; }
     }
